@@ -20,7 +20,7 @@ export default class SearchFormApiService {
         return data.hits;
       });
   }
-
+ 
   resetPage() {
     this.page = 1;
   }
